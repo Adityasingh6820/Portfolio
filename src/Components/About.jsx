@@ -112,7 +112,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
-
+import im1 from "../Components/im1.jpeg";
 const About = () => {
   return (
     <motion.section
@@ -133,7 +133,7 @@ const About = () => {
           viewport={{ once: true }}
         >
           <img
-            src="src/Components/im1.jpeg" // Make sure the path is correct
+            src={im1.jpeg} // Make sure the path is correct
             alt="Profile"
             className="w-full h-full object-cover"
           />
